@@ -1,3 +1,8 @@
+# Start ZSH
+if [ -t 1 ]; then
+    exec zsh
+fi
+
 # Custom Aliases
 TIME_LOG_FILE=/var/log/time-log.txt
 
